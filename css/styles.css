@@ -594,9 +594,9 @@ color: #404bbf;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
-            letter-spacing: 0.04em;
+            letter-spacing: 0.02em;
             color: #fff;
-             padding-bottom: 16px;
+            margin-bottom: 16px;
         }
         
         .form {
@@ -606,22 +606,23 @@ color: #404bbf;
         
        
         .form-input {
+        
         border: 1px solid #fff;
         border-radius: 4px;
-        width: 264px;
         height: 40px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #2e2f42;
-        font-weight: 400;
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         color: #fff;
-        outline: none;
-       
+        background-color: transparent;
+        padding-left: 38px;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         .form-button {
+            font-family: "Roboto", sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -629,8 +630,12 @@ color: #404bbf;
             gap: 16px;
             border-radius: 4px;
             padding: 8px 24px;
-            width: 165px;
+            font-size: 16px;
+            min-width: 165px;
             height: 40px;
+            font-weight: 500px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
             color: #fff;
             background: #4d5ae5;
             cursor: pointer;
@@ -639,7 +644,7 @@ color: #404bbf;
         
         .subscribe-image {
             fill: #fff;
-
+            margin-left: 16px;
         }
                           /* #endfooter */
                           
@@ -673,7 +678,7 @@ color: #404bbf;
         background-color: #fcfcfc;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
         padding-top: 16px;
-        
+    
     }
         .modal-close-btn{
         width: 24px;
