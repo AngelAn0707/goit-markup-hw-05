@@ -734,7 +734,7 @@ margin-bottom: 16px;
  
 }
 .form-user-comment {
-    border: 1px solid rgba(46, 47, 66, 0.4)
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .form-user-label {
     display: block;
@@ -745,6 +745,7 @@ margin-bottom: 16px;
     color: #8e8f99;
     margin-left: 24px;
     margin-bottom: 4px;
+   
 }
 
 .for-user-input {
