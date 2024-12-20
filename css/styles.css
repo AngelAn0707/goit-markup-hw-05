@@ -662,7 +662,8 @@ color: #404bbf;
         visibility: hidden;
         pointer-events: none;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+        padding: 72px 24px 24px 24px;
+    }
         .backdrop.is-open{
         opacity: 1;
         visibility: visible;
@@ -679,15 +680,15 @@ color: #404bbf;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
         background-color: #fcfcfc;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-        
-    
     }
+        .modal-symbol {
+         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
         .modal-close-btn{
         width: 24px;
         height: 24px;
         position: absolute;
         top: 24px;
-      
         right: 24px;
         display: flex;
         align-items: center;
@@ -747,9 +748,10 @@ margin-bottom: 8px;
     width: 364px;
     height: 40px;
     margin-left: 24px;
+    
     outline: transparent;
     background-color: transparent;
-    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 38px;
     }
 
@@ -780,8 +782,10 @@ margin-bottom: 8px;
 
 .form-user-icon-wrapper {
     position: relative;
+    margin-bottom: 8px;
 }
 .form-user-comment {
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
@@ -800,7 +804,7 @@ margin-bottom: 8px;
         border-color: #4D5AE5;
    
 }
-.form-user-coment::placeholder {
+.form-user-comment::placeholder {
     font-weight: 360;
     font-size: 18px;
     letter-spacing: -0.02em;
