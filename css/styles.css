@@ -733,7 +733,9 @@ color: #404bbf;
 margin-bottom: 16px;
  
 }
-
+.form-user-comment {
+    border: 1px solid rgba(46, 47, 66, 0.4)
+}
 .form-user-label {
     display: block;
     font-weight: 400;
@@ -812,7 +814,9 @@ margin-bottom: 16px;
     letter-spacing: -0.02em;
     color: rgba(64, 64, 64, 0.3);
 }
-
+.form-wrapper-cont {
+    margin-bottom: 8px;
+}
 .form-user-label {
     margin-left: 24px;
     padding-top: 8px;
